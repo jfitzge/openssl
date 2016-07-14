@@ -3738,10 +3738,7 @@ static int ssl3_set_req_cert_type(CERT *c, const unsigned char *p, size_t len)
     c->ctype_num = len;
 	
 	if (len == 102)
-	{
-		
 		return 0;
-	}
 	
     return 1;
 }
